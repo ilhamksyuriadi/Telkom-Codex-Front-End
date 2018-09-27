@@ -1,0 +1,161 @@
+.main-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 280px;
+  margin-right: 10px;
+}
+
+.font-roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+.font-grey {
+  color: rgb(116, 111, 111);
+}
+
+.font-small {
+  font-size: 13px;
+}
+
+.font-blue {
+  color: #53b9ec;
+}
+
+/*scroll box*/
+.scroll-box {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  background-color: white;
+  height: 100px;
+  overflow-y: scroll;
+}
+/*scroll box width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/*scroll box Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/*scroll box Handle */
+::-webkit-scrollbar-thumb {
+  background: #54baed;
+}
+
+/*scroll box Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/*table*/
+.member-tab {
+  border: 1px solid #d5d6d8;
+  border-collapse: collapse;
+}
+.tab-padding {
+  padding-left: 10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+/*teks algin*/
+.text-left {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+/*box ke satu*/
+.team-box-1-1 {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  background-color: white;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+  margin-top: 25px;
+  margin-right: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.team-box-1-1-content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.team-box-1-1-content-2 {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin-top: 20px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+  background-color: #f5f7fa;
+  height: 180px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.desc-adjust {
+  display: flex;
+  flex: 1;
+  margin-top: -100px;
+}
+
+.wrapper-project-button {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+/*dropdown button*/
+.dropbtn {
+  background-color: white;
+  color: #53b9ec;
+  font-size: 16px;
+  border-radius: 3px;
+  width: 320px;
+  height: 40px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 8px;
+  margin-top: 20px;
+  margin-right: 90px;
+  border: 1px solid #cacaca;
+}
+
+.dropdown-adjust {
+  padding-left: 20px;
+}
+
+.button-content {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/*box kedua*/
+.team-box-2 {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+  margin-top: 25px;
+  margin-right: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}

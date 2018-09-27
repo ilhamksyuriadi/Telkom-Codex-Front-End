@@ -1,0 +1,8 @@
+html,
+body {
+  background: white;
+  /*display: flex;*/
+  /*flex: 1;*/
+  background-color: #f5f7fa;
+  /*box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.11);*/
+}
